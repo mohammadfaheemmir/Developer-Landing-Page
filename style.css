@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.mainheading{
+    background: url('img1.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-container{
+    color: #fff;
+    padding-top: 120px;
+    padding-left: 100px;
+    text-shadow: 8px 1px black;
+    max-width: 1000px;
+}
+
+.heading{
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.span{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.heading1{
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.sec2{
+    background-color: #000;
+    height: 30vh;
+    color: #fff;
+
+}
+
+.text{
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.section2-heading{
+    font-size: 40px;
+}
+
+.work{
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.third-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    margin: 30px 200px;
+}
+
+.that1{
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+}
+
+.card{
+    width: 320px;
+    height: 500px;
+    border-radius: 10px;
+    /* border: 2px solid yellow; */
+    text-align: center;
+    /* border-radius: 50%; */
+    box-shadow: 3px 5px 5px black;
+}
+
+.textcontainer{
+    margin: 10px;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: 800;
+}
+
+.paracontainer{
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.sec-four{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    height: 300px;
+
+}
+
+.contact{
+    width: 50%;
+    background-color: darkred;
+    text-align: center;
+}
+
+.contact h2{
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+
+.about{
+    width: 50%;
+    background-color: darkolivegreen;
+    text-align: center;
+}
+
+.about h2{
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+
+footer{
+    height: 10vh;
+    background-color: #000;
+    color: #fff;
+}
+
+footer p{
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:deeppink;
+    font-weight: 800;
+}
+
+@media (max-width:786px){
+    .mainheading{
+        min-width: 50vh;
+    }
+    .text-container{
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* .sec2 h2{
+        font-size: 24px;
+
+    }
+
+    .sec2 h2 span{
+        font-size: 32px;
+    } */
+}
